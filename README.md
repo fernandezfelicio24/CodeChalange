@@ -7,7 +7,7 @@ Practice my Python skills following the book of Nichola Lacey " PYTHON BY EXAMPL
 
 ## I'm a Programmer and Junior IT Infrastructure!
 - 🎓 Information Technology Engineer.
-- 🔭 I work in Internation Telecomunication Company in Timor Leste
+- 🔭 I work in International Telecommunication Company in Timor Leste
 - 🥅 2022 Goals: Be able to have advance knowledge about Python and Django
 - ⚡ Fun fact: I like hiking mountain 
 
