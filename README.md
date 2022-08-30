@@ -46,9 +46,9 @@ Practice my Python skills following the book of Nichola Lacey " PYTHON BY EXAMPL
 
 ---
 
-<img align="left" alt="evanemran's Github Stats" src="https://github-readme-stats.vercel.app/api?username=evanemran&show_icons=true&hide_border=true&hide=issues,contribs" />
+<img align="left" alt="evanemran's Github Stats" src="https://github-readme-stats.vercel.app/api?username=fernandezfelicio24&show_icons=true&hide_border=true&hide=issues,contribs" />
 
-<img align="left" alt="evanemran's language Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=evanemran&show_icons=true&hide_border=true" />
+<img align="left" alt="evanemran's language Stats" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fernandezfelicio24&show_icons=true&hide_border=true" />
 
 [website]: https://atsabefelicio.com/
 [twitter]: https://atsabefelicio.com/
