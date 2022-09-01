@@ -175,7 +175,22 @@ def challange050():
     """
 
 
+    ans = int(input("Enter a number between 10 and 20 :"))
 
+    while ans < 10 or ans >20:
+
+
+
+        if ans < 10 :
+
+            print("To low")
+
+        else:
+
+            print("To High")
+
+
+    print("Thank you")
 
 
 
@@ -193,6 +208,26 @@ def challange051():
     """
 
 
+    num = 10
+
+    while num > 0:
+        print("There are ", num, "green bottles hanging on the wall ")
+        print(num, "green bottles hanging on the wall ")
+        print("And if 1 green bottle should accidentally fall, ")
+
+        num -= 1
+
+        answer = int(input("How many green bottles will be hanging on the wall "))
+
+        if answer == num:
+            print("There will be ", num, "green bottles hanging on the wall. ")
+
+        else:
+            while answer != num:
+                answer = int(input("No, try again : "))
+
+
+    print("There are no more green bottles hanging on the wall. ")
 
 
 
@@ -208,9 +243,9 @@ def main():
     #challange046()
     #challange047()
     #challange048()
-    challange049()
+    #challange049()
     #challange050()
-    #challange051()
+    challange051()
 
 
 
