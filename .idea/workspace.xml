@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c323205-ab26-4df1-87cf-640ef36e9f44" name="Default Changelist" comment="" />
+    <list default="true" id="7c323205-ab26-4df1-87cf-640ef36e9f44" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Challenges/Challenges52-59.py" beforeDir="false" afterPath="$PROJECT_DIR$/Challenges/Challenges52-59.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Challenges/Challenges45-51.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="35" column="21" lean-forward="true" selection-end-line="258" />
+            <state relative-caret-position="518">
+              <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -40,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Challenges/Challenges52-59.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="523">
+              <caret line="212" column="84" selection-start-line="212" selection-start-column="84" selection-end-line="212" selection-end-column="84" />
             </state>
           </provider>
         </entry>
@@ -250,8 +253,8 @@
       <item itemvalue="Python.Challanges35-44" />
       <item itemvalue="Python.Challenges20-26" />
       <item itemvalue="Python.Challenges27-34" />
-      <item itemvalue="Python.challange12-19" />
       <item itemvalue="Python.Challenges45-51" />
+      <item itemvalue="Python.challange12-19" />
     </list>
     <recent_temporary>
       <list>
@@ -368,15 +371,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Challenges/Challenges45-51.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="35" column="21" lean-forward="true" selection-end-line="258" />
+        <state relative-caret-position="518">
+          <caret line="37" column="23" lean-forward="true" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Challenges/Challenges52-59.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="523">
+          <caret line="212" column="84" selection-start-line="212" selection-start-column="84" selection-end-line="212" selection-end-column="84" />
         </state>
       </provider>
     </entry>

@@ -4,7 +4,7 @@ Challange 52 until 59 is about WHILE LOOP
 
 
 """
-
+import random
 
 def challange052():
 
@@ -13,6 +13,9 @@ def challange052():
 
     """
 
+
+    num  = random.randint(1,100)
+    print(num)
 
 
 
@@ -23,6 +26,8 @@ def challange053():
 
     """
 
+    fruit = random.choice(['apple','orange', 'grape', 'banana', 'strawberry'])
+    print(fruit)
 
 
 
@@ -37,6 +42,17 @@ def challange054():
     the user if the computer selected heads or tails.
     """
 
+    coin = random.choice(["h", "t"])
+    guess = input("Enter (h) heads or (t) tails : ")
+
+    if guess == coin:
+        print("Congratas, you win")
+    else:
+        print("Bad luck")
+    if coin == 'h':
+        print("It was heads")
+    else:
+        print("It was tails")
 
 
 
@@ -56,7 +72,19 @@ def challange055():
 
     """
 
+    num = random.randint(1,5)
+    guess = int(input("Ente a number : "))
 
+    if guess == num:
+        print("Well done")
+    elif guess > num:
+        print("Too High")
+        guess = int(input("Guess again : "))
+
+        if guess == num:
+            print("Correct")
+        else:
+            print("You lose ")
 
 
 
@@ -73,6 +101,19 @@ def challange056():
 
     """
 
+    num = random.randint(1,10)
+
+    correct = False
+
+    while correct == False:
+
+
+        guess = int(input("Enter a number : "))
+
+
+        if guess == num:
+            correct = True
+
 
 
 def challange057():
@@ -81,6 +122,19 @@ def challange057():
     Update program 056 so that it tells the user if they are too high
     or too low before they pick again.
     """
+    num = random.randint(1,10)
+
+    correct = False
+
+    while correct == False:
+        guess = int(input("Enter a number : "))
+
+        if guess == num :
+            correct = True
+        elif guess > num:
+            print("Too high")
+        else:
+            print("Too low")
 
 
 
@@ -100,6 +154,23 @@ def challange058():
     """
 
 
+    score = 0
+
+    for i in range(1,6):
+        num1 = random.randint(1,50)
+        num2 = random.randint(1,50)
+        correct = num1 + num2
+
+        print(num1, "+", num2, "= ")
+        answer = int(input("Your anwer : "))
+        print()
+        if answer == correct:
+            score += 1
+
+    print("You scored", score, "out of 5")
+
+
+
 def challange059():
 
     """
@@ -113,6 +184,34 @@ def challange059():
     enter a colour until they guess it correctly.
 
     """
+
+    colour = random.choice(["red", "blue", "green", "white", "pink"])
+
+    print("Select from red, blue, green, white, or pink ")
+
+    tryagain = True
+
+    while tryagain == True:
+        theirchoice = input("Enter a colour : ")
+        theirchoice = theirchoice.lower()
+
+        if colour == theirchoice:
+            print("Well done ")
+            tryagain = False
+
+        else:
+
+            if colour == "red":
+                print("I bet you are seeing RED riht now ! ")
+            elif colour == "blue":
+                print("Don't feel BLUE.")
+            elif colour == "green":
+                print("I bet you are GREEN with envy right now. ")
+            elif colour == "white":
+                print("Are you WHITE as a sheet, as you didn't guess correctly ?")
+            elif colour == "pink":
+                print("Shame you are not feeling in the PINK, as you got it wrong ! ")
+
 
 
 def main():
