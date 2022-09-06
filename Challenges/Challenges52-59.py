@@ -217,7 +217,7 @@ def challange059():
 def main():
 
 
-    #challange052()
+    challange052()
     #challange053()
     #challange054()
     #challange055()
