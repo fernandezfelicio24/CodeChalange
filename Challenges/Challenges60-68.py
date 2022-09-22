@@ -83,7 +83,7 @@ def challange063():
         turtle.forward(70)
         turtle.right(90)
 
-    
+
 
 
 def challange064():
@@ -96,7 +96,11 @@ def challange064():
 
     """
 
+    for i in range(0, 5):
+        turtle.forward(100)
+        turtle.right(144)
 
+    turtle.exitonclick()
 
 
 def challange065():
@@ -108,21 +112,60 @@ def challange065():
     """
 
 
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.right(90)
+    turtle.penup()
+    turtle.forward(50)
+    turtle.pendown()
+    turtle.forward(75)
+    turtle.right(90)
+    turtle.forward(50)
+    turtle.right(90)
+    turtle.forward(75)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(75)
+    turtle.penup()
+    turtle.forward(50)
+    turtle.pendown()
+    turtle.forward(75)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(45)
+    turtle.left(180)
 
 
+    turtle.forward(45)
+    turtle.left(90)
+    turtle.forward(50)
 
+    turtle.left(90)
+    turtle.forward(75)
+
+    turtle.hideturtle()
+    turtle.exitonclick()
 
 def challange066():
 
     """
-    Write the numbers as shown below,
-    starting at the bottom of the number
-    one.
+        Draw an octagon that uses a different colour (randomly
+    selected from a list of six possible colours) for each line.
 
     """
 
+    import random
 
+    turtle.pensize(3)
 
+    for i in range (0, 8):
+        turtle.color(random.choice(["red", "blue", "yellow", "green", "pink", "orange"]))
+        turtle.forward(50)
+        turtle.right(45)
+
+    turtle.exitonclick()
 
 
 def challange067():
@@ -131,7 +174,16 @@ def challange067():
     Create the following pattern:
 
     """
+    import random
 
+    for x in range(0, 10):
+        for i in range (0, 8):
+            turtle.forward(50)
+            turtle.right(45)
+        turtle.right(36)
+
+    turtle.hideturtle()
+    turtle.exitonclick()
 
 def challange068():
 
@@ -143,19 +195,29 @@ def challange068():
 
     """
 
+    import random
+
+    lines = random.randint(5, 20)
+
+    for x in range(0, lines):
+        length = random.randint(25, 100)
+        rotate = random.randint(1, 365)
+        turtle.forward(length)
+        turtle.right(rotate)
+    turtle.exitonclick()
 
 def main():
 
 
     #challange060()
-    challange061()
+    #challange061()
     #challange062()
     #challange063()
     #challange064()
     #challange065()
     #challange066()
     #challange067()
-
+    challange068()
 
 
 
