@@ -211,6 +211,36 @@ def challange076():
 
     """
 
+    invite = []
+
+    person1 = input("Enter the first person you want to invite : ")
+
+    invite.append(person1)
+
+    person2 = input("Enter the second person you want to invite : ")
+
+    invite.append(person2)
+
+    person3 = input("Enter the third person you want to invite : ")
+
+    invite.append(person3)
+
+    ans = input("Do you want to add another person : ")
+
+    while ans == 'y':
+        person4 = input("Enter another person you want to invite")
+
+        invite.append(person4)
+
+        ans = input("Do you wanto to add another person : ")
+
+
+    print(invite)
+
+
+
+
+
 
 def challange077():
 
@@ -221,7 +251,58 @@ def challange077():
     answer “no”, delete that entry from the list and display the list again.
 
     """
+    invite = []
 
+    person1 = input("Enter the first person you want to invite : ")
+
+    invite.append(person1)
+
+    person2 = input("Enter the second person you want to invite : ")
+
+    invite.append(person2)
+
+    person3 = input("Enter the third person you want to invite : ")
+
+    invite.append(person3)
+
+    ans = input("Do you want to add another person : ")
+
+    if ans == 'y':
+
+        person4 = input("Enter another person you want to invite")
+
+        invite.append(person4)
+
+        for i in range(len(invite)):
+            print(f"Index : {i} is {invite[i]}")
+
+
+        delperson = input("Do you want to remove some guest that you invite (y/n) ")
+
+        if delperson == 'y':
+            indperson = int(input("Enter the index of person you want to delete : "))
+
+            invite.remove(indperson)
+
+            for i in range(len(invite)):
+                print(f"Index : {i} is {invite[i]}")
+
+    else:
+
+
+        for i in range(len(invite)):
+
+            print(f"Index : {i} is {invite[i]}")
+
+        delperson = input("Do you want to remove some guest that you invite (y/n) ")
+
+        if delperson == 'y':
+            indperson = int(input("Enter the index of person you want to delete : "))
+
+            invite.remove(invite[indperson])
+
+            for i in range(len(invite)):
+                print(f"Index : {i} is {invite[i]}")
 
 def challange078():
 
@@ -237,6 +318,18 @@ def challange078():
 
     """
 
+    tv = ["Task Naster", "Top Gear", "The Big Bang", "How i met you"]
+
+    for i in tv:
+        print(i)
+    print()
+    newtv = input("Enter another Tv SHOW : ")
+
+    position = int(input("Enter a number between 0 and 3 : "))
+    tv.insert(position, newtv)
+
+    for i in tv:
+        print(i)
 
 def challange079():
 
@@ -254,7 +347,22 @@ def challange079():
 
     """
 
+    nums = []
 
+    count = 0
+
+    while count < 3 :
+        num = int(input("Enter a number : "))
+        nums.append(num)
+
+        print(nums)
+        count += 1
+
+    lastnum = input("Do you want the last number saved : (y/n) : ")
+
+    if lastnum == 'n':
+        nums.remove(num)
+    print(nums)
 
 def main():
 
@@ -264,11 +372,11 @@ def main():
     #challange072()
     #challange073()
     #challange074()
-    challange075()
+    #challange075()
     #challange076()
     #challange077()
     #challange078()
-    #challange079()
+    challange079()
 
 
 
